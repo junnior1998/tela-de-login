@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body  {
+  font-family: 'montserrat';
+  color: #404040;
+  /* Flex container*/
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  /* viewport heigth */
+
+  background-color: brown;
+  background-image: url(https://img.freepik.com/free-photo/modern-futuristic-sci-fi-background_35913-2150.jpg?t=st=1743951883~exp=1743955483~hmac=bcacf7f58d6d32a0594a9b2a42a6d7995ad9090d30c2c93cc72eb4207a4f1fad&w=1060);
+  background-size: cover;
+  background-position: 50%;
+  padding: 20px;
+}
+
+
+form {
+  /* Flex child do body*/
+  background-color: white;
+  padding: 40px;
+  border-radius: 30px;
+  /* Flex container*/
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+ h1{
+  font-size: 24px;
+ }
+
+ button {
+  padding: 15px;
+  align-self: center;
+  width: 160px;
+  border-radius: 30px;
+  /* background-color: #3393c1; */
+  background-image: linear-gradient(#256a8a, #3393c1);
+  border: solid 1px #256a8a;
+  border-right-width: 4px;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+ }
+
+ input {
+  padding:10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f1f1f1;
+ }
+
+ a {
+  color: rgb(7, 30, 161);
+ }
+
+ .barra-horizontal {
+  background-color: #f87842;
+  height: 5px;
+  width: 180px;
+ }
+
+ .campo-input {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .lembrar-me {
+   /* Flex container*/
+  display: flex ;
+  gap: 5px;
+  
+ }
+
+ .titulo {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .esqueceu-senha {
+  text-align: center;
+ }
